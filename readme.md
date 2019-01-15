@@ -1,4 +1,4 @@
-The solutions the the challenge is posted here. 
+# Snacks And Snackers Database
 
 - I wrote a python script and used it to create a simplified version of the products list json file with less properties to make it easier to create the tables. 
 - Then I used an online json to SQL tool to make the code to create the tables 

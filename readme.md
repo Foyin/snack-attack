@@ -13,13 +13,19 @@ SELECT email FROM products JOIN snackers ON snackers.fave_snack=products.title;
 
 Assuming everything in products table is in stock
 1) List the real stocked snacks you found under the snacker's 'fave_snack'?
+```
 SELECT fave_snack FROM products JOIN snackers ON snackers.fave_snack=products.title;
+```
 
 2) What're the emails of the snackers who listed those as a 'fave_snack'?
+```
 SELECT email FROM products JOIN snackers ON snackers.fave_snack=products.title;
+```
 
 3) If all those snackers we're to pay for their 'fave_snack'what's the total price?
+```
 SELECT SUM(price) FROM products JOIN snackers ON snackers.fave_snack=products.title;
+```
 
 Results (assuming everything in products table is in stock):
 

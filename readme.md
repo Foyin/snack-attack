@@ -6,10 +6,14 @@ The solutions the the challenge is posted here.
 - Then i used a tool called sqlite3 to test the database schema and queries
 
 Find all emails of snackers with a 'fave_snack'of a product we stock not assuming everything in table is in stock:
+```
 SELECT email FROM products JOIN snackers ON snackers.fave_snack=products.title AND products.available = 'True';
+```
 
 Find all emails of snackers with a 'fave_snack'of a product we stock assuming everything in table is in stock:
+```
 SELECT email FROM products JOIN snackers ON snackers.fave_snack=products.title;
+```
 
 Assuming everything in products table is in stock
 1) List the real stocked snacks you found under the snacker's 'fave_snack'?

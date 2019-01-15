@@ -3,7 +3,7 @@
 - I wrote a python script and used it to create a simplified version of the products list json file with less properties to make it easier to create the tables. 
 - Then I used an online json to SQL tool to make the code to create the tables 
 - Manually assigned primary keys
-- Then i used a tool called sqlite3 to test the database schema and queries
+- Then i used a tool called [sqlite3](https://www.sqlite.org/index.html) to test the database schema and queries
 
 ER Diagram
 ![erdiagram](https://user-images.githubusercontent.com/15314851/51179040-6f1d6500-1892-11e9-90c6-9dfeb56b93f2.png)

@@ -24,6 +24,7 @@ SELECT SUM(price) FROM products JOIN snackers ON snackers.fave_snack=products.ti
 Results (assuming everything in products table is in stock):
 
 Find all emails of snackers with a 'fave_snack'of a product we stock:
+```
 cbuchett29@simplemachines.org
 cshearstonedr@shinystat.com
 gtanswillg@rambler.ru
@@ -32,8 +33,10 @@ alenox2c@answers.com
 okillend@ucoz.ru
 stirte5c@si.edu
 ulapish4u@abc.net.au
+```
 
-a) List the real stocked snacks you found under the snacker's 'fave_snack'?
+1) List the real stocked snacks you found under the snacker's 'fave_snack'?
+```
 Clif Crunch Bar
 Clif Crunch Bar
 Clif Crunch Bar
@@ -42,8 +45,10 @@ Bobo's Oat Bars
 Bobo's Oat Bars
 Bobo's Oat Bars
 Bobo's Oat Bars
+```
 
-b) What're the emails of the snackers who listed those as a 'fave_snack'?
+2) What're the emails of the snackers who listed those as a 'fave_snack'?
+```
 cbuchett29@simplemachines.org
 cshearstonedr@shinystat.com
 gtanswillg@rambler.ru
@@ -52,8 +57,11 @@ alenox2c@answers.com
 okillend@ucoz.ru
 stirte5c@si.edu
 ulapish4u@abc.net.au
+```
 
-c) If all those snackers we're to pay for their 'fave_snack'what's the total price?
+3) If all those snackers we're to pay for their 'fave_snack'what's the total price?
+```
 22.0
+```
 
 

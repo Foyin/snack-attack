@@ -5,7 +5,7 @@
 - Manually assigned primary keys
 - Then i used a tool called [sqlite3](https://www.sqlite.org/index.html) to test the database schema and queries
 
-ER Diagram
+## ER Diagram
 ![erdiagram](https://user-images.githubusercontent.com/15314851/51179040-6f1d6500-1892-11e9-90c6-9dfeb56b93f2.png)
 
 Find all emails of snackers with a 'fave_snack'of a product we stock not assuming everything in table is in stock:
